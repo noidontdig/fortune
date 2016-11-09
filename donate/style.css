@@ -81,6 +81,21 @@ img {
   width: 300px;
 }
 
+.floating-button {
+  border: 0;
+  background-color: #00cc99;
+  color: #fff;
+  margin: 0;
+  padding: 15px 20px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+}
+
+.floating-button:hover {
+  border:0;
+}
+
 @media (max-width: 650px) {
   .container {
     margin: 50px 20px;
